@@ -15,14 +15,14 @@ class Board
         grid = new char[BoardSize, BoardSize];
         ships = new Ship[]
         {
-           /* new Ship(4),
+            new Ship(4),
             new Ship(3),
             new Ship(3),
             new Ship(2),
             new Ship(2),
             new Ship(2),
             new Ship(1),
-            new Ship(1),*/
+            new Ship(1),
             new Ship(1),
             new Ship(1)
         };

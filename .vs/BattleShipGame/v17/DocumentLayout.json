@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|c:\\users\\kacpe\\onedrive\\pulpit\\statkipoprawione \u2014 kopia\\battleshipgame-main\\battleshipgame-main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|c:\\users\\kacpe\\onedrive\\pulpit\\statkipoprawione \u2014 kopia\\battleshipgame-main\\battleshipgame-main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4D04CE-47FF-4844-B0E8-06DB8A911D66}|BattleShipGame.csproj|C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Ship.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAApwD8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T11:05:57.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T11:05:57.512Z"
             },
             {
               "$type": "Document",
@@ -67,26 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAMwCwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T11:05:56.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\Board.cs",
               "RelativeDocumentMoniker": "Board.cs",
               "ToolTip": "C:\\Users\\kacpe\\OneDrive\\Pulpit\\statkipoprawione \u2014 kopia\\BattleShipGame-main\\BattleShipGame-main\\Board.cs",
               "RelativeToolTip": "Board.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAowG4AAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T11:05:55.42Z",
               "EditorCaption": ""
