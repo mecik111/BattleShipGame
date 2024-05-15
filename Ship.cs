@@ -51,26 +51,29 @@ class Ship
         return true;
     }
 
-    public bool Hit(int x, int y, Board board)
+    public bool Hit(int x, int y, Board board, Board boardEnemy)
     {
         if (segments[x,y]==0)
             return false;
 
         hits++;
         segments[x,y] = 1;
-        if (IsSunk(board))
+        if (IsSunk(board,boardEnemy))
         {
 
         }
         return true;
     }
 
-    public bool IsSunk(Board board=null)
+    public bool IsSunk(Board board=null, Board boardEnemy=null)
     {
         if (board != null)
         {
-            if (hits == size) BlockAround(board);
-
+            if (hits == size)
+            {
+                BlockAround(board);
+                BlockAround(boardEnemy);
+            }
         }
         
         return hits == size;
@@ -78,16 +81,16 @@ class Ship
 
     public void BlockAround(Board board)
     {
-        
+
         int[,] shipLocations = new int[size, 2];
         int partsFound = 0;
-        for(int i  = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         {
             for (int j = 0; j < 10; j++)
             {
-                if (segments[i,j]==1)
+                if (segments[i, j] == 1)
                 {
-                    shipLocations[partsFound,0]=i;
+                    shipLocations[partsFound, 0] = i;
                     shipLocations[partsFound, 1] = j;
                     partsFound++;
                 }
@@ -96,52 +99,54 @@ class Ship
         for (int i = 0; i < size; i++)
         {
             bool left = false, right = false, up = false, down = false;
-            if (!(shipLocations[i,1]+1>9))
+            if (!(shipLocations[i, 1] + 1 > 9))
             {
                 down = true;
-                board.grid[shipLocations[i, 0], shipLocations[i, 1] + 1] = '~';
+                board.grid[shipLocations[i, 0], shipLocations[i, 1] + 1] = 'O';
             }
 
-            if (!(shipLocations[i, 1] - 1 < 0 ))
-            { 
+            if (!(shipLocations[i, 1] - 1 < 0))
+            {
                 up = true;
-                board.grid[shipLocations[i, 0], shipLocations[i, 1] - 1] = '~';
+                board.grid[shipLocations[i, 0], shipLocations[i, 1] - 1] = 'O';
             }
 
             if (!(shipLocations[i, 0] + 1 > 9))
             {
                 right = true;
-                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1]] = '~';
+                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1]] = 'O';
             }
 
             if (!(shipLocations[i, 0] - 1 < 0))
             {
                 left = true;
-                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1]] = '~';
+                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1]] = 'O';
             }
 
-            if(up&&right)
+            if (up && right)
             {
-                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1] - 1]  = '~';
+                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1] - 1] = 'O';
             }
 
             if (up && left)
             {
-                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1] - 1] = '~';
+                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1] - 1] = 'O';
             }
 
             if (down && right)
             {
-                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1] + 1] = '~';
+                board.grid[shipLocations[i, 0] + 1, shipLocations[i, 1] + 1] = 'O';
             }
             if (down && left)
             {
-                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1] + 1] = '~';
+                board.grid[shipLocations[i, 0] - 1, shipLocations[i, 1] + 1] = 'O';
             }
         }
-        for(int i = 0; i < size; i++)
+        for (int i = 0; i < size; i++)
         {
             board.grid[shipLocations[i, 0], shipLocations[i, 1]] = 'X';
         }
     }
 }
+
+

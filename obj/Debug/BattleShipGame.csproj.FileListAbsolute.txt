@@ -40,3 +40,17 @@ C:\Users\Student\Desktop\KacperM\githubVersionBattleShipGame\BattleShipGame-main
 C:\Users\Student\Desktop\KacperM\githubVersionBattleShipGame\BattleShipGame-main\BattleShipGame-main\BattleShipGame\obj\Debug\BattleShipGame.csproj.CoreCompileInputs.cache
 C:\Users\Student\Desktop\KacperM\githubVersionBattleShipGame\BattleShipGame-main\BattleShipGame-main\BattleShipGame\obj\Debug\BattleShipGame.exe
 C:\Users\Student\Desktop\KacperM\githubVersionBattleShipGame\BattleShipGame-main\BattleShipGame-main\BattleShipGame\obj\Debug\BattleShipGame.pdb
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.exe.config
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.exe
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.pdb
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.csproj.AssemblyReference.cache
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.exe
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.pdb
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.exe.config
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.exe
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\bin\Debug\BattleShipGame.pdb
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.csproj.AssemblyReference.cache
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.exe
+C:\Users\kacpe\OneDrive\Pulpit\statkipoprawione — kopia\BattleShipGame-main\BattleShipGame-main\obj\Debug\BattleShipGame.pdb

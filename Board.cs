@@ -15,14 +15,14 @@ class Board
         grid = new char[BoardSize, BoardSize];
         ships = new Ship[]
         {
-            new Ship(4),
+           /* new Ship(4),
             new Ship(3),
             new Ship(3),
             new Ship(2),
             new Ship(2),
             new Ship(2),
             new Ship(1),
-            new Ship(1),
+            new Ship(1),*/
             new Ship(1),
             new Ship(1)
         };
@@ -103,14 +103,14 @@ class Board
         }
     }
 
-    public bool ReceiveAttack(int[] coords, Board board)
+    public bool ReceiveAttack(int[] coords, Board board, Board boardEnemy)
     {
         int x = coords[0];
         int y = coords[1];
 
         foreach (Ship ship in ships)
         {
-            if (ship.Hit(x, y, board))
+            if (ship.Hit(x, y, board,boardEnemy))
             {
                 grid[x, y] = 'X';
                 return true;
@@ -263,8 +263,6 @@ class Board
             case 'X':
                 return ConsoleColor.Red;
             case 'O':
-                return ConsoleColor.Gray;
-            case '~':
                 return ConsoleColor.Yellow;
             default:
                 return ConsoleColor.White;

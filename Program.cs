@@ -1,31 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class Program
 {
     static void Main(string[] args)
     {
-      
+
 
         while (true)
         {
-           
+
             Player player1 = new Player();
             Player player2 = new Player();
 
-            
+
             Console.Clear();
-            Console.WriteLine("Player 1's turn:");
+            Console.WriteLine("Player 1's ships placing:");
             player1.SetupBoard();
+            Console.WriteLine("\nPress Enter to continue...");
+            Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("Player 2's turn:");
+            Console.WriteLine("\nPress Enter to start player 2's ships placing");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Player 2's ships placing:");
             player2.SetupBoard();
+            Console.WriteLine("\nPress Enter to continue...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\nPress Enter to start player 1's turn");
+            Console.ReadLine();
 
 
-           
+
+
+
+
             while (!player1.AllShipsSunk() && !player2.AllShipsSunk())
             {
                 Console.Clear();
@@ -33,18 +42,28 @@ class Program
                 player1.Attack(player2);
                 Console.WriteLine("\nPress Enter to continue...");
                 Console.ReadLine();
+                Console.Clear();
+
 
                 if (player2.AllShipsSunk())
                     break;
+
+                Console.WriteLine("\nPress Enter to start player 2's turn");
+                Console.ReadLine();
+                Console.Clear();
 
                 Console.Clear();
                 Console.WriteLine("Player 2's turn:");
                 player2.Attack(player1);
                 Console.WriteLine("\nPress Enter to continue...");
                 Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("\nPress Enter to start player 1's turn");
+                Console.ReadLine();
+                Console.Clear();
             }
 
-           
+
             Console.Clear();
             if (player1.AllShipsSunk())
             {
